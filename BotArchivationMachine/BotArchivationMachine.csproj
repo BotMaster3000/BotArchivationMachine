@@ -70,6 +70,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Interfaces\IArchiveManager.cs" />
+    <Compile Include="Interfaces\IArchiveModel.cs" />
+    <Compile Include="Interfaces\IArchivingWorker.cs" />
+    <Compile Include="Interfaces\IDatabaseManager.cs" />
+    <Compile Include="Interfaces\IViewModel.cs" />
     <Compile Include="Views\ArchivationView.xaml.cs">
       <DependentUpon>ArchivationView.xaml</DependentUpon>
     </Compile>
