@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BotArchivationMachine.Interfaces
 {
-    public interface IViewModel
+    public interface IArchivationViewModel
     {
         List<IArchiveModel> ArchiveModelList { get; set; }
         IArchiveManager ArchivationManager { get; set; }

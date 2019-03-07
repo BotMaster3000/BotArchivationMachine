@@ -70,11 +70,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Archivation\ArchiveManager.cs" />
+    <Compile Include="Archivation\Worker\ArchivingWorker.cs" />
+    <Compile Include="Database\DatabaseManager.cs" />
     <Compile Include="Interfaces\IArchiveManager.cs" />
     <Compile Include="Interfaces\IArchiveModel.cs" />
     <Compile Include="Interfaces\IArchivingWorker.cs" />
     <Compile Include="Interfaces\IDatabaseManager.cs" />
-    <Compile Include="Interfaces\IViewModel.cs" />
+    <Compile Include="Interfaces\IArchivationViewModel.cs" />
+    <Compile Include="Models\ArchiveModel.cs" />
+    <Compile Include="ViewModels\ArchivationViewModel.cs" />
     <Compile Include="Views\ArchivationView.xaml.cs">
       <DependentUpon>ArchivationView.xaml</DependentUpon>
     </Compile>
@@ -112,10 +117,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
