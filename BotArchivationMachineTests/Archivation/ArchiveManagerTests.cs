@@ -11,10 +11,5 @@ namespace BotArchivationMachine.Archivation.Tests
     [TestClass]
     public class ArchiveManagerTests
     {
-        [TestMethod]
-        public void StartArchivingTest()
-        {
-            Assert.Fail();
-        }
     }
 }

@@ -11,10 +11,6 @@ namespace BotArchivationMachine.Archivation.Worker.Tests
     [TestClass]
     public class ArchivingWorkerTests
     {
-        [TestMethod]
-        public void ArchivateDirectoryTest()
-        {
-            Assert.Fail();
-        }
+
     }
 }

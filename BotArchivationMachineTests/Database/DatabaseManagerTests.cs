@@ -11,10 +11,5 @@ namespace BotArchivationMachine.Database.Tests
     [TestClass]
     public class DatabaseManagerTests
     {
-        [TestMethod]
-        public void AddEntyTest()
-        {
-            Assert.Fail();
-        }
     }
 }
