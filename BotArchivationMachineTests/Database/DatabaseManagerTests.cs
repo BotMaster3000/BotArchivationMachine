@@ -11,5 +11,10 @@ namespace BotArchivationMachine.Database.Tests
     [TestClass]
     public class DatabaseManagerTests
     {
+        [TestMethod]
+        public void DatabaseManager_Constructor_Test()
+        {
+            DatabaseManager databaseManager = new DatabaseManager();
+        }
     }
 }

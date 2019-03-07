@@ -10,7 +10,7 @@ namespace BotArchivationMachine.Interfaces
     {
         int ID { get; set; }
         string Path { get; set; }
-        DateTime LastArchivingDate { get; set; }
+        DateTime? LastArchivingDate { get; set; }
         int ArchivingIntervalInHours { get; set; }
     }
 }

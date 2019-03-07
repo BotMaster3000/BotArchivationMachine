@@ -9,9 +9,9 @@ namespace BotArchivationMachine.Models
 {
     public class ArchiveModel : IArchiveModel
     {
-        public int ID { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Path { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime LastArchivingDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public int ArchivingIntervalInHours { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ID { get; set; }
+        public string Path { get; set; } = "";
+        public DateTime? LastArchivingDate { get; set; }
+        public int ArchivingIntervalInHours { get; set; }
     }
 }
